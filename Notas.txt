@@ -1,0 +1,5 @@
+PAGINA DE DEPENDENCIAS: https://www.npmjs.com/
+Comando para isntalar las depencias :  npm i
+Boostrap css: npm i boostrap
+jquery: nmp i jquery
+ecpress: npm i express
