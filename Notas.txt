@@ -3,3 +3,5 @@ Comando para isntalar las depencias :  npm i
 Boostrap css: npm i boostrap
 jquery: nmp i jquery
 ecpress: npm i express
+colors : npm i colors
+nodemon: npm i nodemon --save-dev
