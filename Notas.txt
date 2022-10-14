@@ -2,6 +2,9 @@ PAGINA DE DEPENDENCIAS: https://www.npmjs.com/
 Comando para isntalar las depencias :  npm i
 Boostrap css: npm i boostrap
 jquery: nmp i jquery
-ecpress: npm i express
+express: npm i express
+express-generator: npm i express-generator
 colors : npm i colors
 nodemon: npm i nodemon --save-dev
+mysql: npm i mysql
+sequelize: npm i --save sequelize
