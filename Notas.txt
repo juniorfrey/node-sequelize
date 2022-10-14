@@ -11,3 +11,7 @@ sequelize: npm i --save sequelize
 sequelize-cli: npm i sequelize-cli
     comandos: iniciar un proyecto con sequelize-cli: npx sequelize-cli init
     Crear un modelo: npx sequelize-cli model:generate --name Nombre --attributes nombre:string,edad:integer
+    
+   
+   
+clonar proyecto: git clone https://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:x-oauth-basic@github.com/juniorfrey/node-sequelize.git
