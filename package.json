@@ -17,7 +17,8 @@
     "express-generator": "^4.16.1",
     "jquery": "^3.6.1",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.25.1"
+    "sequelize": "^6.25.1",
+    "sequelize-cli": "^6.5.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

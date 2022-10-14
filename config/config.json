@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "wiliyw2vx8jhz8z88k6b",
+    "password": "pscale_pw_oWJYCIYiFstCd2nG6FDFzhm8HLgHLBf7iISHmCllpn0",
+    "database": "pruebas_curso",
+    "host": "us-east.connect.psdb.cloud",
+    "dialect": "mysql",
+    "ssl":true,
+    "dialectOptions": { "ssl": {"require":true} }
+  },
+  "test": {
+    "username": "wiliyw2vx8jhz8z88k6b",
+    "password": "pscale_pw_oWJYCIYiFstCd2nG6FDFzhm8HLgHLBf7iISHmCllpn0",
+    "database": "pruebas_curso",
+    "host": "us-east.connect.psdb.cloud",
+    "dialect": "mysql",
+    "ssl":true,
+    "dialectOptions": { "ssl": {"require":true} }
+  },
+  "production": {
+    "username": "wiliyw2vx8jhz8z88k6b",
+    "password": "pscale_pw_oWJYCIYiFstCd2nG6FDFzhm8HLgHLBf7iISHmCllpn0",
+    "database": "pruebas_curso",
+    "host": "us-east.connect.psdb.cloud",
+    "dialect": "mysql",
+    "ssl":true,
+    "dialectOptions": { "ssl": {"require":true} }
+  }
+}

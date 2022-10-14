@@ -4,14 +4,14 @@
  var colors = require('colors');
  const Sequelize = require('sequelize');
 
- const sequelize = new Sequelize('usuarios_db','5mkuugphdba2sjcil0j0', 'pscale_pw_pyLsPqsQSKtrUcuz80mQq1UpohgtrmWK9bsWVLlQtvH',{
+/*  const sequelize = new Sequelize('usuarios_db','5mkuugphdba2sjcil0j0', 'pscale_pw_pyLsPqsQSKtrUcuz80mQq1UpohgtrmWK9bsWVLlQtvH',{
   host: 'us-east.connect.psdb.cloud',
   dialect :'mysql',
   dialectOptions: { ssl: {} }
- });
+ }); */
 
 
- sequelize.authenticate().then(() => {
+/*  sequelize.authenticate().then(() => {
     console.log('Conexion a la base de datos')
  }).catch(error => {
     console.log('El error de conexion es: ' + error)
@@ -29,15 +29,13 @@
     console.log(results.id + ' - ' + results.nombre);
  }).catch(error => {
     console.log(error)
- })
+ }) */
 
 
 
  var app = express();
-
- //MEOTODOS DE SOLICITUDES HTTP
- //Peticion get
-
+ app.use(express.urlencoded({extended:true}));
+ app.use(express.json());
 
  app.get('/contacto', (pet, res) => {
     res.send('ruta de contactows')
@@ -64,10 +62,10 @@
     
   }
  */
-  ;
-  app.get('/', (pet, res) => {
+  
+/*   app.get('/', (pet, res) => {
       res.send('Ruta raiz')
-  });
+  }); */
 
 
  app.listen(3000, (pet, res) => {
